@@ -13594,7 +13594,7 @@ MpAKkxBCCCGEEEJkIBUmIYQQQgghhMhAKkxCCCGEEEIIkcH/B1UKxp9li2XYAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[53]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
@@ -13607,10 +13607,6 @@ MpAKkxBCCCGEEEJkIBUmIYQQQgghhMhAKkxCCCGEEEIIkcH/B1UKxp9li2XYAAAAAElFTkSuQmCC
 
 <span class="c1"># plot clustermap</span>
 <span class="n">sns</span><span class="o">.</span><span class="n">clustermap</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
-
-<span class="c1">#plot histogram</span>
-<span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">values</span><span class="p">:</span>
-    <span class="n">sns</span><span class="o">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">col</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span> <span class="mi">30</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -14161,13 +14157,13 @@ AABJRU5ErkJggg==
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong></p>
-<p>Based on the correlation graph following features has some degree of correlation:</p>
+<p>The pairs below exhibit correlation, which confirms my suspicions about their relevance, as they have the top 3 R^2 score of the decision tree regressor, it's also to be noted that their distributions are skewed to the right, thus a log scale could be useful in this case.</p>
 <ul>
 <li>Milk &amp; Detergents_Paper</li>
 <li>Grocery and Milk</li>
 <li>Frozen &amp; Delicatessen</li>
 </ul>
-<p>Data is not normally distributed since Mean and Median are vary significanty so based on the histogram most of the points lie between</p>
+<p>Also Data is not normally distributed since Mean and Median are vary significanty.</p>
 
 </div>
 </div>
