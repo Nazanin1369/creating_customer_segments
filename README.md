@@ -1,8 +1,6 @@
-# Project 3: Unsupervised Learning
-## Creating Customer Segments
+## Unsupervised Learning: Creating Customer Segments
 
-### View Online
-You can view the code and data analysis here
+### [Click to view online](https://nazanin1369.github.io/creating_customer_segments/)
 
 ### Install
 
