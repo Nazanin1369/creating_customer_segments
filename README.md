@@ -2,7 +2,7 @@
 
 ### [Click to view online](https://nazanin1369.github.io/creating_customer_segments/)
 
-### Install
+### How to Install
 
 This project requires **Python 2.7** and the following Python libraries installed:
 
